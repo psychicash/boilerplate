@@ -163,6 +163,7 @@ class Window(tk.Frame):
             self.summary_scrolltext.insert(INSERT, self.template_dict["tn_" + str(self.combobox.get()) + "_summary"])
 
 
+
     def create_boiler(self):
 
 
